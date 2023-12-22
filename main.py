@@ -14,6 +14,8 @@ preference = int(input("Are you looking for today's or tomorrows schedule? 0 for
 day = today.weekday() + 1 + preference
 
 izban_url = "http://www.izban.com.tr/Sayfalar/SeferSaatleri.aspx?MenuId=22" # Website I'm scraping from
+
+# Chrome driver location. Please use the Chrome driver, same as your Chrome version, and update the driver location below. 
 service = Service("/Users/deringezgin/Documents/deringezgin/CS Books/chromedriver")
 driver = webdriver.Chrome(service=service)
 driver.get(izban_url)
