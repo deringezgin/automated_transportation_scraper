@@ -1,5 +1,3 @@
 # Automated Transportation Information Scraper
 
-Web-Scraper for getting subway departure and arrival times in Izmir. 
-
-It uses the user input to choose the correct date and station names to find the upcoming subway times. 
+This project scrapes the Subway system of Izmir (3rd largest city in Turkey) to return the subway arrival and departure times of a user-specified station. 
